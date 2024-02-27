@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    background-color: #F1F1F1;
+ }
+ nav .logo{
+    font-size: 20px;
+    font-weight:900;
+ }
+ nav .links  ul{
+display: flex;
+list-style: none;
+padding-top: 20px;
+ }
+ nav .links  ul a {
+    text-decoration: none;
+    padding-left: 25px;
+    text-transform: uppercase  ;
+    color: rgb(104, 104, 104);
+    font-weight: 600;
+ }
+ .banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 10%;
+    background-color: #0F3D3E;
+
+ }
+.banner .name{
+    display: flex;
+    flex-direction: column;
+    /* align-content: space-around; */
+    justify-content: center;
+    padding-right: 35%;
+    color:#E2DCC8;
+    
+}
+
+ .banner img{
+    width: 400px;
+    border-radius: 50%;
+ }
+ .banner .name h1 {
+    text-align: center;
+    font-size: 35px;
+}
+.banner .name h3 {
+    text-align: center;
+    
+}
+.about{
+    background-color: #F1F1F1;
+    padding: 40px 10%;
+}
+.about h1{
+    margin: 0px;
+    padding: 20px 0;
+    text-align: center;
+    color: #0F3D3E;
+}
+.about p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.projects-boxs  {
+    padding: 60px 6% 60px 15%;
+    background-color: #0F3D3E;
+    display: flex;
+    flex-wrap: wrap;
+}
+.projects-boxs .box{
+padding-right: 20px;
+
+}
+.projects-boxs .box img {
+    width: 250px;
+    height: 200px;
+
+}
+.projects-boxs  h3  {
+   color: #F1F1F1;
+   text-align: center;
+}
+
+footer .top-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #100F0F;
+    color: rgb(175, 174, 174);
+    padding: 0 10%;
+}
+.top-header .phone-num{
+   display: flex; 
+}
+.top-header span{
+    padding: 0 16px;
+    color: #fff;
+}
+.top-header .social-icon{
+    padding-top: 17px;
+    padding-right: 20px;
+    color: aqua;
+}
+.top-header .email{
+   display: flex; 
+}
+.top-header .meet-us-icons{
+   display: flex; 
+}
+.top-header .icons{
+    padding-top: 17px; 
+    padding-left: 15px;
+ }
+ .top-header .icons a{
+    padding: 0 10px;
+    color: aqua;
+ }
